@@ -1,9 +1,9 @@
-remote_theme : mmistakes/hpstr-jekyll-theme
-title:            park minseo
-description:      Describe your website here.
+remote_theme:mmistakes/hpstr-jekyll-theme
+title:"park minseo"
+description:
 disqus_shortname: 
-reading_time:     true
-words_per_minute: 200
+reading_time:true
+words_per_minute:200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 url:"https://minseo.github.io"
@@ -18,27 +18,27 @@ owner:
   facebook:       
   github:         
   stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:
   # google plus id, include the '+', eg +mmistakes
   google_plus:
 
 # Background image to be tiled on all pages
-background: 
+background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics:
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      false  # publish future dated posts --  true, false (default) 
-highlighter: rouge
-markdown:    kramdown
+timezone:America/New_York
+future:false  # publish future dated posts --  true, false (default) 
+highlighterrouge
+markdown:kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
@@ -49,10 +49,10 @@ sass:
   style: compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+permalink:/:categories/:title/
 
 # Amount of post to show on home page
-paginate: 5
+paginate:5
 
 kramdown:
   input: GFM
@@ -62,9 +62,9 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-include: 
+include:
   - .htaccess
-exclude: 
+exclude:
   - "*.less"
   - "*.sublime-project"
   - "*.sublime-workspace"
