@@ -15,10 +15,11 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+encoding		: "UTF-8"
+locale                   : "ko-KR"
 title                    : "Site Title"
 title_separator          : "-"
-name                     : "밍꾸"
+name                     : "ming"
 description              : "An amazing website."
 url                      : "https://mingggu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -106,10 +107,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Park MinSeo"
+  name             : "ming"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
+  location         : "seoul"
   email            :
   links:
     - label: "Email"
